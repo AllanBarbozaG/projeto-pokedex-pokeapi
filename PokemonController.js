@@ -1,0 +1,2 @@
+requisicao()
+console.log('olá')
