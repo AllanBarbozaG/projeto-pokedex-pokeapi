@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="app.css">
+  <title>Pokedex pokeapi</title>
+  <link rel="stylesheet" href="./src/css/app.css">
 </head>
 <body>
+  <header id="header">
+    <h1 id="titulo">Pokedex Pokeapi</h1>
+  </header>
+
   <div id="body-background-filter"></div>
 
   <main>
@@ -15,14 +19,15 @@
     <div id="pokedex">
 
       <form id="input-nome-poke">
-        <input title="aaa" type="text" name="" id="input-usuario-nome-poke">       
+        <input placeholder="Nome pokemon" type="text" name="" id="input-usuario-nome-poke">       
       </form>
 
       <div id="display-poke-infos">
+
         <span class="name">Nome:</span><br>
         <span class="id">ID:</span><br>
         <span class="moves">Movimentos:</span>
-        <div id="img"></div>        
+        <div id="img-div"></div>        
       </div>
       
     </div>
@@ -31,5 +36,6 @@
 
 
   <script src="/app.js"></script>
+  <script src="/PokemonController.js"></script>
 </body>
 </html>
