@@ -7,35 +7,42 @@
   <title>Pokedex pokeapi</title>
   <link rel="stylesheet" href="./src/css/app.css">
 </head>
-<body>
-  <header id="header">
-    <h1 id="titulo">Pokedex Pokeapi</h1>
-  </header>
+<body>  
+  <div id="body-background"></div>
 
-  <div id="body-background-filter"></div>
-
-  <main>
-    
+  <main>    
     <div id="pokedex">
-
       <form id="input-nome-poke">
         <input placeholder="Nome pokemon" type="text" name="" id="input-usuario-nome-poke">       
       </form>
 
       <div id="display-poke-infos">
+        <div id="poke-infos-filter">          
+          <div id="moves-and-status">
+            <div id="movimentos-div">
+              <h4 id="movimentos-titulo">Movimentos</h4>
+              <p class="movimentos" id="move1">Move 1</span><br>
+              <p class="movimentos" id="move2">Move 2</span><br>
+              <p class="movimentos" id="move3">Move 3</span><br>  
+            </div>  
 
-        <span class="name">Nome:</span><br>
-        <span class="id">ID:</span><br>
-        <span class="moves">Movimentos:</span>
-        <div id="img-div"></div>        
-      </div>
-      
+            <div id="status-div">
+              <h4 id="status-titulo">Status</h4>
+              <p class="stats" id="hp">HP</p>
+              <p class="stats" id="atk">Atk</p>
+              <p class="stats" id="def">Def</p>
+              <p class="stats" id="spd">Spd</p>
+            </div>
+          </div>
+         
+          <div id="img-div"></div>       
+        </div> 
+      </div>         
     </div>
   </main>
-
-
-
+  
   <script src="/app.js"></script>
-  <script src="/PokemonController.js"></script>
+  <script src="./src/controller/PokemonController.js"></script>
+  <script src="./src/view/PokemonView.js"></script>
 </body>
 </html>
