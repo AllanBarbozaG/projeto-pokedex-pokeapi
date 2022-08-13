@@ -1,2 +1,0 @@
-requisicao()
-console.log('olá')
