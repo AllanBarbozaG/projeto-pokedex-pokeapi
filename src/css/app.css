@@ -2,16 +2,15 @@
   margin: 0;
 }
 
-#body-background-filter {
+#body-background {
   width: 100%;
   height: 41.3rem;
   background-color: rgba(0, 0, 0, 0.212);
-  background-image: url('/src/img/body-background.webp');
+  background-image: url('/src/img/background.png');
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
-  position: absolute;
-  
+  position: absolute;  
 }
 
 main {
@@ -29,24 +28,57 @@ main {
   background-image: url('/src/img/pokedex.png');
   background-size: contain;
   background-repeat: no-repeat;
-
-}
-
-#display-poke-infos {  
-  width: 82%;
-  height: 16.7rem;
-  margin-top: 1rem;
-  margin-left: 4rem;
-  margin-right: auto;  
-  background-color: gray;
-  z-index: -1;
-  
 }
 
 #input-usuario-nome-poke {
   margin-top: 12rem;
   margin-left: 1rem;
 }
+
+#display-poke-infos {  
+  width: 80%;
+  height: 16rem;
+  margin-top: 1.1rem;
+  margin-left: 4rem;
+  margin-right: auto;   
+  background-size: cover;
+  background-repeat: no-repeat;  
+  border-style: ridge;
+  border-color: white; 
+  border-width: 3px;
+}
+
+#poke-infos-filter {
+  display: flex;
+  align-items: center;  
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 255, 255, 0.863);
+}
+
+#moves-and-status {
+  width: 50%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;  
+  margin-left: 1.5rem;
+}
+
+.movimentos, .stats {
+  padding-top: 0.3rem;
+}
+
+#img-div {
+  width: 50%;
+  height: 50%;
+}
+
+#poke-img {
+  width: 8rem;
+  height: 8rem;
+}
+
 
 
 
