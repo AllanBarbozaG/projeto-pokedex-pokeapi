@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+
+#body-background-filter {
+  width: 100%;
+  height: 41.3rem;
+  background-color: rgba(0, 0, 0, 0.212);
+  background-image: url('/src/img/body-background.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: absolute;
+  
+}
+
+main {
+  padding-top: 1.2rem;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;  
+}
+
+#pokedex {   
+  align-self: center;
+  width: 26rem;
+  height: 39rem;
+  background-image: url('/src/img/pokedex.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+#display-poke-infos {  
+  width: 82%;
+  height: 16.7rem;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  margin-right: auto;  
+  background-color: gray;
+  z-index: -1;
+  
+}
+
+#input-usuario-nome-poke {
+  margin-top: 12rem;
+  margin-left: 1rem;
+}
+
+
+
